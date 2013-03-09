@@ -16,6 +16,7 @@ Bundle 'ervandew/supertab'
 Bundle 'scrooloose/syntastic'
 Bundle 'sukima/xmledit'
 Bundle 'derekwyatt/vim-scala'
+Bundle 'vim-scripts/Align'
 
 Bundle 'L9'
 Bundle 'FuzzyFinder'
