@@ -48,3 +48,12 @@
     autocmd BufRead,BufNewFile *.* syntax enable
     autocmd BufRead,BufNewFile *.* set background=dark
     autocmd BufRead,BufNewFile *.* colorscheme solarized
+
+"Closing braces
+inoremap {      {}<Left>
+inoremap {<CR>  {<CR>}<Esc>O
+inoremap {{     {
+inoremap {}     {}
+
+"No highlighigng
+set nohlsearch
