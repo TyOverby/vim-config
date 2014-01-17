@@ -45,9 +45,9 @@
 "SOLARIZED
     let g:solarized_termcolors=256
 
-    autocmd BufRead,BufNewFile *.* syntax enable
-    autocmd BufRead,BufNewFile *.* set background=dark
-    autocmd BufRead,BufNewFile *.* colorscheme solarized
+    autocmd BufRead,BufNewFile * syntax enable
+    autocmd BufRead,BufNewFile * colorscheme lucius
+    autocmd BufRead,BufNewFile * LuciusDarkLowContrast
 
 "Closing braces
 inoremap {      {}<Left>
