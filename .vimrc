@@ -70,4 +70,5 @@ endif " has ("autocmd")
 
 so ~/.vim/settings.vim
 
-
+set ttimeout
+set ttimeoutlen=0

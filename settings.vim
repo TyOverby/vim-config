@@ -58,10 +58,6 @@ inoremap {}     {}
 "No highlighigng
 set nohlsearch
 
-"Set better escapes
-inoremap jk <esc>
-inoremap kj <esc>
-
 "Move to next visible lines
 map <C-j> <C-W>j
 map <C-k> <C-W>k
@@ -70,3 +66,8 @@ map <C-l> <C-W>l
 
 noremap j gj
 noremap k gk
+
+"Folding
+set foldmethod=syntax
+noremap zl zO
+noremap zh zc
